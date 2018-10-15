@@ -203,10 +203,10 @@ body.design {
   background: url(http://connect.ul.com/rs/365-LEA-623/images/bng-ul18-bg-banner-1.jpg) center center no-repeat;
   background-size: cover;
   min-height: 400px;
+  border-bottom: 5px solid #F06E30;
 }
 
 .content-container-wrap {
-  border-top: 5px solid #F06E30;
   .container-content {
     position: relative;
     font-family: "Open Sans", sans-serif;
@@ -377,38 +377,73 @@ body.design {
 /* Short Form */
 
 .mktoForm {
-  width: 100%;
+  width: 100% !important;
   overflow: hidden;
   padding: 10px 0 20px;
-  input, select, textarea {
-    width: 100% !important;
-    border: 1px solid #D3D3D3;
-    background: #fff;
-    padding: 5px 7px;
-    height: 50px;
-  }
-  .mktoLabel {
-    width: 100% !important;
-    position: relative;
-    padding: 12px 0 2px 12px;
-    .mktoGutter .mktoHasWidth {
-      width: 0;
-      padding: 0;
+  font-size: 16px !important;
+  font-family: 'Open Sans' !important;
+  .mktoFormCol {
+    width: 100%;
+    .mktoGutter, .mktoOffset {
+      display: none;
     }
-    .mktoAsterix {
-      position: absolute;
-      top: 10px;
-      left: 0;
-      color: red;
-      font-size: 10px;
+    .mktoFieldWrap {
+      width: 100%;
+      .mktoLabel {
+        width: 100% !important;
+        position: relative;
+        padding: 12px 0 5px 12px;
+        .mktoGutter .mktoHasWidth {
+          width: 0;
+          padding: 0;
+        }
+        .mktoAsterix {
+          position: absolute;
+          top: 15px;
+          left: 0;
+          color: #F06E30;
+          font-size: 16px;
+          font-weight: 400;
+          padding: 0;
+          margin: 0;
+        }
+      }
+      input, select, textarea {
+        width: 100% !important;
+        border: 1px solid #D3D3D3;
+        background: #fff;
+        padding: 5px 7px;
+        height: 50px;
+        &:hover, &:focus, &:focus-within, &:active, &:visited {
+          background: #fff;
+        }
+      }
+      .mktoError {
+        position: relative;
+        top: 0;
+        right: unset !important;
+        bottom: unset !important;
+        left: 0;
+        .mktoErrorArrowWrap {
+          display: none;
+        }
+        .mktoErrorMsg {
+          float: left;
+          margin: 0;
+          border-radius: 0;
+          background: #F06E30;
+          background-image: none;
+        }
+      }
     }
-  }
+  }  
   .mktoCheckboxList {
     position: relative;
     width: 35% !important;
     padding: 0 0 0 30px;
     input[type=checkbox], input[type=radio] {
       position: absolute;
+      width: unset !important;
       left: 0;
       height: 18px;
       margin-top: 8px;
@@ -422,26 +457,26 @@ body.design {
     }
   }
   .mktoButtonRow {
-    .mktoButtonWrap {
+    .mktoButtonWrap.mktoSimple {
       margin: 0 !important;
-    }
-    .mktoButton {
-      position: relative;
-      background: #F06E30;
-      border: 3px solid #F06E30;
-      border-radius: 50px;
-      width: 220px;
-      border: none;
-      height: 50px;
-      font-size: 20px;
-      text-transform: uppercase;
-      color: #fff;
-      font-weight: 700;
-      margin: 20px 0 0;
-      &:hover, &:focus {
-        background: #fff;
+      .mktoButton {
+        position: relative;
+        background: #F06E30;
         border: 3px solid #F06E30;
-        color: #F06E30;
+        border-radius: 50px;
+        width: 220px;
+        border: none;
+        height: 50px;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 700;
+        margin: 20px 0 0;
+        &:hover, &:focus {
+          background: #fff;
+          border: 3px solid #F06E30;
+          color: #F06E30;
+        }
       }
     }
   }
@@ -449,8 +484,6 @@ body.design {
 
 
 /* contact_thank_you css */
-
-
 
 .contact_thank_you {
   .container-main {

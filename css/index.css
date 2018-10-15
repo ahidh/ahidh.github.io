@@ -168,105 +168,104 @@ body.design {
 .index .container-banner {
   background: url(http://connect.ul.com/rs/365-LEA-623/images/bng-ul18-bg-banner-1.jpg) center center no-repeat;
   background-size: cover;
-  min-height: 400px; }
+  min-height: 400px;
+  border-bottom: 5px solid #F06E30; }
 
-.content-container-wrap {
-  border-top: 5px solid #F06E30; }
-  .content-container-wrap .container-content {
-    position: relative;
-    font-family: "Open Sans", sans-serif; }
-    .content-container-wrap .container-content .row {
-      margin: 0; }
-    .content-container-wrap .container-content .container-main {
-      padding: 30px 20px 20px 0px; }
-      .content-container-wrap .container-content .container-main h1 {
-        margin: 0 0 10px 0;
-        padding: 0;
-        color: #161A42;
-        font: 600 30px "Open Sans", sans-serif; }
-      .content-container-wrap .container-content .container-main h2 {
-        margin: 0 0 10px 0;
-        padding: 0;
-        color: #161A42;
-        font: 800 24px "Open Sans", sans-serif; }
-      .content-container-wrap .container-content .container-main h3 {
-        margin: 0 0 10px 0;
-        padding: 0;
-        color: #161A42;
-        font: 800 22px "Open Sans", sans-serif; }
-      .content-container-wrap .container-content .container-main h4 {
-        margin: 0;
-        padding: 12px 0px;
-        font: 700 22px/20px "Open Sans", sans-serif;
-        color: #F06E30;
-        letter-spacing: 0.2px;
-        text-transform: uppercase; }
-      .content-container-wrap .container-content .container-main small {
-        display: block;
-        font: 500 19px/22px "Open Sans", sans-serif;
-        color: #F06E30;
-        padding-bottom: 13px; }
-      .content-container-wrap .container-content .container-main blockquote {
-        margin: 10px 0;
-        padding: 5px 15px 5px 20px;
-        font: 600 18px "Open Sans", sans-serif;
-        font-style: italic;
-        color: #F06E30;
-        border-left: 10px solid #F06E30; }
-      .content-container-wrap .container-content .container-main p {
-        margin: 0;
-        padding: 10px 0; }
-      .content-container-wrap .container-content .container-main .callOut {
-        margin: 10px 0;
-        background: #F06E30;
-        color: #fff;
-        padding: 20px; }
-      .content-container-wrap .container-content .container-main ul {
-        margin: 12px 0px 0px 18px;
-        padding: 0; }
-        .content-container-wrap .container-content .container-main ul li {
-          padding-bottom: 8px; }
-      .content-container-wrap .container-content .container-main a {
-        font-weight: 600;
-        color: #F06E30;
+.content-container-wrap .container-content {
+  position: relative;
+  font-family: "Open Sans", sans-serif; }
+  .content-container-wrap .container-content .row {
+    margin: 0; }
+  .content-container-wrap .container-content .container-main {
+    padding: 30px 20px 20px 0px; }
+    .content-container-wrap .container-content .container-main h1 {
+      margin: 0 0 10px 0;
+      padding: 0;
+      color: #161A42;
+      font: 600 30px "Open Sans", sans-serif; }
+    .content-container-wrap .container-content .container-main h2 {
+      margin: 0 0 10px 0;
+      padding: 0;
+      color: #161A42;
+      font: 800 24px "Open Sans", sans-serif; }
+    .content-container-wrap .container-content .container-main h3 {
+      margin: 0 0 10px 0;
+      padding: 0;
+      color: #161A42;
+      font: 800 22px "Open Sans", sans-serif; }
+    .content-container-wrap .container-content .container-main h4 {
+      margin: 0;
+      padding: 12px 0px;
+      font: 700 22px/20px "Open Sans", sans-serif;
+      color: #F06E30;
+      letter-spacing: 0.2px;
+      text-transform: uppercase; }
+    .content-container-wrap .container-content .container-main small {
+      display: block;
+      font: 500 19px/22px "Open Sans", sans-serif;
+      color: #F06E30;
+      padding-bottom: 13px; }
+    .content-container-wrap .container-content .container-main blockquote {
+      margin: 10px 0;
+      padding: 5px 15px 5px 20px;
+      font: 600 18px "Open Sans", sans-serif;
+      font-style: italic;
+      color: #F06E30;
+      border-left: 10px solid #F06E30; }
+    .content-container-wrap .container-content .container-main p {
+      margin: 0;
+      padding: 10px 0; }
+    .content-container-wrap .container-content .container-main .callOut {
+      margin: 10px 0;
+      background: #F06E30;
+      color: #fff;
+      padding: 20px; }
+    .content-container-wrap .container-content .container-main ul {
+      margin: 12px 0px 0px 18px;
+      padding: 0; }
+      .content-container-wrap .container-content .container-main ul li {
+        padding-bottom: 8px; }
+    .content-container-wrap .container-content .container-main a {
+      font-weight: 600;
+      color: #F06E30;
+      text-decoration: underline; }
+      .content-container-wrap .container-content .container-main a:hover, .content-container-wrap .container-content .container-main a:focus, .content-container-wrap .container-content .container-main a:visited {
+        color: #323232;
         text-decoration: underline; }
-        .content-container-wrap .container-content .container-main a:hover, .content-container-wrap .container-content .container-main a:focus, .content-container-wrap .container-content .container-main a:visited {
-          color: #323232;
-          text-decoration: underline; }
-    .content-container-wrap .container-content .container-side {
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      height: 100%;
-      padding: 20px;
-      background: #F06E30; }
-      .content-container-wrap .container-content .container-side .short-form {
+  .content-container-wrap .container-content .container-side {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    padding: 20px;
+    background: #F06E30; }
+    .content-container-wrap .container-content .container-side .short-form {
+      width: 100%;
+      color: #fff;
+      padding-top: 20px; }
+      .content-container-wrap .container-content .container-side .short-form h4 {
+        margin: 0;
+        padding: 0;
+        font: 700 24px "Open Sans", sans-serif;
+        text-transform: uppercase; }
+      .content-container-wrap .container-content .container-side .short-form p {
+        margin: 0;
+        padding: 14px 0;
+        font: 400 14px/20px "Open Sans", sans-serif; }
+      .content-container-wrap .container-content .container-side .short-form input, .content-container-wrap .container-content .container-side .short-form textarea {
+        display: block;
         width: 100%;
-        color: #fff;
-        padding-top: 20px; }
-        .content-container-wrap .container-content .container-side .short-form h4 {
-          margin: 0;
-          padding: 0;
-          font: 700 24px "Open Sans", sans-serif;
-          text-transform: uppercase; }
-        .content-container-wrap .container-content .container-side .short-form p {
-          margin: 0;
-          padding: 14px 0;
-          font: 400 14px/20px "Open Sans", sans-serif; }
-        .content-container-wrap .container-content .container-side .short-form input, .content-container-wrap .container-content .container-side .short-form textarea {
-          display: block;
-          width: 100%;
-          padding: 10px;
-          margin-bottom: 10px;
-          font-size: 14px;
-          color: #323232;
-          border: none;
-          outline: none;
-          background: #fff; }
-        .content-container-wrap .container-content .container-side .short-form ::placeholder {
-          color: #323232;
-          opacity: 0.7; }
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: #323232;
+        border: none;
+        outline: none;
+        background: #fff; }
+      .content-container-wrap .container-content .container-side .short-form ::placeholder {
+        color: #323232;
+        opacity: 0.7; }
 
 .container-footer {
   position: relative;
@@ -307,34 +306,62 @@ body.design {
 
 /* Short Form */
 .mktoForm {
-  width: 100%;
+  width: 100% !important;
   overflow: hidden;
-  padding: 10px 0 20px; }
-  .mktoForm input, .mktoForm select, .mktoForm textarea {
-    width: 100% !important;
-    border: 1px solid #D3D3D3;
-    background: #fff;
-    padding: 5px 7px;
-    height: 50px; }
-  .mktoForm .mktoLabel {
-    width: 100% !important;
-    position: relative;
-    padding: 12px 0 2px 12px; }
-    .mktoForm .mktoLabel .mktoGutter .mktoHasWidth {
-      width: 0;
-      padding: 0; }
-    .mktoForm .mktoLabel .mktoAsterix {
-      position: absolute;
-      top: 10px;
-      left: 0;
-      color: red;
-      font-size: 10px; }
+  padding: 10px 0 20px;
+  font-size: 16px !important;
+  font-family: 'Open Sans' !important; }
+  .mktoForm .mktoFormCol {
+    width: 100%; }
+    .mktoForm .mktoFormCol .mktoGutter, .mktoForm .mktoFormCol .mktoOffset {
+      display: none; }
+    .mktoForm .mktoFormCol .mktoFieldWrap {
+      width: 100%; }
+      .mktoForm .mktoFormCol .mktoFieldWrap .mktoLabel {
+        width: 100% !important;
+        position: relative;
+        padding: 12px 0 5px 12px; }
+        .mktoForm .mktoFormCol .mktoFieldWrap .mktoLabel .mktoGutter .mktoHasWidth {
+          width: 0;
+          padding: 0; }
+        .mktoForm .mktoFormCol .mktoFieldWrap .mktoLabel .mktoAsterix {
+          position: absolute;
+          top: 15px;
+          left: 0;
+          color: #F06E30;
+          font-size: 16px;
+          font-weight: 400;
+          padding: 0;
+          margin: 0; }
+      .mktoForm .mktoFormCol .mktoFieldWrap input, .mktoForm .mktoFormCol .mktoFieldWrap select, .mktoForm .mktoFormCol .mktoFieldWrap textarea {
+        width: 100% !important;
+        border: 1px solid #D3D3D3;
+        background: #fff;
+        padding: 5px 7px;
+        height: 50px; }
+        .mktoForm .mktoFormCol .mktoFieldWrap input:hover, .mktoForm .mktoFormCol .mktoFieldWrap input:focus, .mktoForm .mktoFormCol .mktoFieldWrap input:focus-within, .mktoForm .mktoFormCol .mktoFieldWrap input:active, .mktoForm .mktoFormCol .mktoFieldWrap input:visited, .mktoForm .mktoFormCol .mktoFieldWrap select:hover, .mktoForm .mktoFormCol .mktoFieldWrap select:focus, .mktoForm .mktoFormCol .mktoFieldWrap select:focus-within, .mktoForm .mktoFormCol .mktoFieldWrap select:active, .mktoForm .mktoFormCol .mktoFieldWrap select:visited, .mktoForm .mktoFormCol .mktoFieldWrap textarea:hover, .mktoForm .mktoFormCol .mktoFieldWrap textarea:focus, .mktoForm .mktoFormCol .mktoFieldWrap textarea:focus-within, .mktoForm .mktoFormCol .mktoFieldWrap textarea:active, .mktoForm .mktoFormCol .mktoFieldWrap textarea:visited {
+          background: #fff; }
+      .mktoForm .mktoFormCol .mktoFieldWrap .mktoError {
+        position: relative;
+        top: 0;
+        right: unset !important;
+        bottom: unset !important;
+        left: 0; }
+        .mktoForm .mktoFormCol .mktoFieldWrap .mktoError .mktoErrorArrowWrap {
+          display: none; }
+        .mktoForm .mktoFormCol .mktoFieldWrap .mktoError .mktoErrorMsg {
+          float: left;
+          margin: 0;
+          border-radius: 0;
+          background: #F06E30;
+          background-image: none; }
   .mktoForm .mktoCheckboxList {
     position: relative;
     width: 35% !important;
     padding: 0 0 0 30px; }
     .mktoForm .mktoCheckboxList input[type=checkbox], .mktoForm .mktoCheckboxList input[type=radio] {
       position: absolute;
+      width: unset !important;
       left: 0;
       height: 18px;
       margin-top: 8px; }
@@ -344,25 +371,25 @@ body.design {
       padding: 7px 0;
       font-size: 14px;
       font-weight: 400; }
-  .mktoForm .mktoButtonRow .mktoButtonWrap {
+  .mktoForm .mktoButtonRow .mktoButtonWrap.mktoSimple {
     margin: 0 !important; }
-  .mktoForm .mktoButtonRow .mktoButton {
-    position: relative;
-    background: #F06E30;
-    border: 3px solid #F06E30;
-    border-radius: 50px;
-    width: 220px;
-    border: none;
-    height: 50px;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: 700;
-    margin: 20px 0 0; }
-    .mktoForm .mktoButtonRow .mktoButton:hover, .mktoForm .mktoButtonRow .mktoButton:focus {
-      background: #fff;
+    .mktoForm .mktoButtonRow .mktoButtonWrap.mktoSimple .mktoButton {
+      position: relative;
+      background: #F06E30;
       border: 3px solid #F06E30;
-      color: #F06E30; }
+      border-radius: 50px;
+      width: 220px;
+      border: none;
+      height: 50px;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 700;
+      margin: 20px 0 0; }
+      .mktoForm .mktoButtonRow .mktoButtonWrap.mktoSimple .mktoButton:hover, .mktoForm .mktoButtonRow .mktoButtonWrap.mktoSimple .mktoButton:focus {
+        background: #fff;
+        border: 3px solid #F06E30;
+        color: #F06E30; }
 
 /* contact_thank_you css */
 .contact_thank_you .container-main {
