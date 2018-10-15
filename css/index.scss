@@ -331,6 +331,7 @@ body.design {
 }
 
 .container-footer {
+  position: relative;
   padding: 60px 0px 30px;
   background: #161A42;
   .footer-wrap {
@@ -378,7 +379,99 @@ body.design {
   }
 }
 
+/* Short Form */
 
+.mktoForm {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0 20px;
+  input, select, textarea {
+    width: 100% !important;
+    border: 1px solid #D3D3D3;
+    background: #fff;
+    padding: 5px 7px;
+    height: 50px;
+  }
+  .mktoLabel {
+    width: 100% !important;
+    position: relative;
+    padding: 12px 0 2px 12px;
+    .mktoGutter .mktoHasWidth {
+      width: 0;
+      padding: 0;
+    }
+    .mktoAsterix {
+      position: absolute;
+      top: 10px;
+      left: 0;
+      color: red;
+      font-size: 10px;
+    }
+  }
+  .mktoCheckboxList {
+    position: relative;
+    width: 35% !important;
+    padding: 0 0 0 30px;
+    input[type=checkbox], input[type=radio] {
+      position: absolute;
+      left: 0;
+      height: 18px;
+      margin-top: 8px;
+    }
+    label {
+      display: block;
+      margin: 0;
+      padding: 7px 0;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  .mktoButtonRow {
+    .mktoButtonWrap {
+      margin: 0 !important;
+    }
+    .mktoButton {
+      position: relative;
+      background: #F06E30;
+      border: 3px solid #F06E30;
+      border-radius: 50px;
+      width: 220px;
+      border: none;
+      height: 50px;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 700;
+      margin: 20px 0 0;
+      &:hover, &:focus {
+        background: #fff;
+        border: 3px solid #F06E30;
+        color: #F06E30;
+      }
+    }
+  }
+}
+
+
+/* contact_thank_you css */
+
+
+
+.contact_thank_you {
+  .container-main {
+    text-align: center;
+    min-height: 400px;
+    h1 {
+      font-size: 40px !important;
+      font-weight: 700 !important;
+    } 
+  }
+  .container-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+}
 
 /* Responsive css */
 
