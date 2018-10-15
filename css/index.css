@@ -105,11 +105,11 @@ body.design {
             color: #fff;
             font: 600 16px "Montserrat", sans-serif;
             text-decoration: none; }
-            .nav-wrap .container-nav .navbar-collapse ul li a:hover, .nav-wrap .container-nav .navbar-collapse ul li a:focus {
+            .nav-wrap .container-nav .navbar-collapse ul li a:hover, .nav-wrap .container-nav .navbar-collapse ul li a:focus, .nav-wrap .container-nav .navbar-collapse ul li a:active, .nav-wrap .container-nav .navbar-collapse ul li a.current {
               text-decoration: none;
               color: #fff;
               background: #F06E30; }
-            .nav-wrap .container-nav .navbar-collapse ul li a:hover:before, .nav-wrap .container-nav .navbar-collapse ul li a:focus:before {
+            .nav-wrap .container-nav .navbar-collapse ul li a:hover:before, .nav-wrap .container-nav .navbar-collapse ul li a:focus:before, .nav-wrap .container-nav .navbar-collapse ul li a.current:before {
               content: "";
               position: absolute;
               z-index: 3;
@@ -122,10 +122,6 @@ body.design {
               border-top-right-radius: 5px; }
             .nav-wrap .container-nav .navbar-collapse ul li a:visited {
               color: #fff; }
-            .nav-wrap .container-nav .navbar-collapse ul li a:active, .nav-wrap .container-nav .navbar-collapse ul li a .current {
-              text-decoration: none;
-              color: #fff;
-              background: #F06E30; }
     .nav-wrap .container-nav .search-bar {
       float: right;
       padding: 3px 0 0; }
