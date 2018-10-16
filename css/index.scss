@@ -578,8 +578,6 @@ body.design {
        }
     }
   }
-
-
   .nav-wrap {
     .container-nav {
       .nav-mobile {
@@ -637,7 +635,16 @@ body.design {
   .index .container-banner {
     min-height: 200px;
   }
+  
 }
+
+@media screen and (max-width: 711px) {
+  .about .container-footer {
+    position: relative;
+    width: 100%;
+    bottom: unset;
+  }
+} 
 
 @media screen and (max-width: 370px) {
   .container-header .header-wrap .brand a img {
