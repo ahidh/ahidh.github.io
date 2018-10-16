@@ -214,27 +214,27 @@ body.design {
       margin: 0;
     }
     .container-main {
-      padding: 30px 20px 20px 0px;
+      padding: 10px 20px 20px 0px;
       h1 {
-        margin: 0 0 10px 0;
+        margin: 20px 0 10px 0;
         padding: 0;
         color: #161A42;
         font: 600 30px "Open Sans", sans-serif;
       }
       h2 {
-        margin: 0 0 10px 0;
+        margin: 20px 0 10px 0;
         padding: 0;
         color: #161A42;
-        font: 800 24px "Open Sans", sans-serif;
+        font: 600 24px "Open Sans", sans-serif;
       }
       h3 {
-        margin: 0 0 10px 0;
+        margin: 20px 0 10px 0;
         padding: 0;
         color: #161A42;
-        font: 800 22px "Open Sans", sans-serif;
+        font: 600 22px "Open Sans", sans-serif;
       }
       h4 {
-        margin: 0;
+        margin: 20px 0 0;
         padding: 12px 0px;
         font: 700 22px/20px "Open Sans", sans-serif;
         color: #F06E30;
@@ -418,6 +418,10 @@ body.design {
           background: #fff;
         }
       }
+      textarea {
+        height: 100px;
+        padding: 10px;
+      }
       .mktoError {
         position: relative;
         top: 0;
@@ -482,6 +486,30 @@ body.design {
   }
 }
 
+.mktoFormRow:nth-child(23) {
+  .mktoFormCol:nth-child(1) {
+    margin: 0 !important;
+    padding: 0;
+    width: 25px;
+    .mktoFieldWrap {      
+      label { display: none; }
+      .mktoCheckboxList { 
+        padding: 0;
+        input {
+          padding: 0;
+          margin: 0;
+        }
+      }
+    }
+  }
+  .mktoFormCol:nth-child(2) {
+    width: 97.5%;
+    .mktoHtmlText {
+      width: 100% !important;
+    }
+  }
+}
+
 
 /* contact_thank_you css */
 
@@ -501,6 +529,12 @@ body.design {
   }
 }
 
+.about .container-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
 /* Responsive css */
 
 @media screen and (max-width: 1200px) {
@@ -514,7 +548,7 @@ body.design {
     padding-right: 20px;
   }
   .content-container-wrap .container-content .container-main {
-    padding: 30px 20px 20px;
+    padding: 10px 20px 20px;
   }
 }
 

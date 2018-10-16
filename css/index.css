@@ -177,24 +177,24 @@ body.design {
   .content-container-wrap .container-content .row {
     margin: 0; }
   .content-container-wrap .container-content .container-main {
-    padding: 30px 20px 20px 0px; }
+    padding: 10px 20px 20px 0px; }
     .content-container-wrap .container-content .container-main h1 {
-      margin: 0 0 10px 0;
+      margin: 20px 0 10px 0;
       padding: 0;
       color: #161A42;
       font: 600 30px "Open Sans", sans-serif; }
     .content-container-wrap .container-content .container-main h2 {
-      margin: 0 0 10px 0;
+      margin: 20px 0 10px 0;
       padding: 0;
       color: #161A42;
-      font: 800 24px "Open Sans", sans-serif; }
+      font: 600 24px "Open Sans", sans-serif; }
     .content-container-wrap .container-content .container-main h3 {
-      margin: 0 0 10px 0;
+      margin: 20px 0 10px 0;
       padding: 0;
       color: #161A42;
-      font: 800 22px "Open Sans", sans-serif; }
+      font: 600 22px "Open Sans", sans-serif; }
     .content-container-wrap .container-content .container-main h4 {
-      margin: 0;
+      margin: 20px 0 0;
       padding: 12px 0px;
       font: 700 22px/20px "Open Sans", sans-serif;
       color: #F06E30;
@@ -341,6 +341,9 @@ body.design {
         height: 50px; }
         .mktoForm .mktoFormCol .mktoFieldWrap input:hover, .mktoForm .mktoFormCol .mktoFieldWrap input:focus, .mktoForm .mktoFormCol .mktoFieldWrap input:focus-within, .mktoForm .mktoFormCol .mktoFieldWrap input:active, .mktoForm .mktoFormCol .mktoFieldWrap input:visited, .mktoForm .mktoFormCol .mktoFieldWrap select:hover, .mktoForm .mktoFormCol .mktoFieldWrap select:focus, .mktoForm .mktoFormCol .mktoFieldWrap select:focus-within, .mktoForm .mktoFormCol .mktoFieldWrap select:active, .mktoForm .mktoFormCol .mktoFieldWrap select:visited, .mktoForm .mktoFormCol .mktoFieldWrap textarea:hover, .mktoForm .mktoFormCol .mktoFieldWrap textarea:focus, .mktoForm .mktoFormCol .mktoFieldWrap textarea:focus-within, .mktoForm .mktoFormCol .mktoFieldWrap textarea:active, .mktoForm .mktoFormCol .mktoFieldWrap textarea:visited {
           background: #fff; }
+      .mktoForm .mktoFormCol .mktoFieldWrap textarea {
+        height: 100px;
+        padding: 10px; }
       .mktoForm .mktoFormCol .mktoFieldWrap .mktoError {
         position: relative;
         top: 0;
@@ -391,6 +394,22 @@ body.design {
         border: 3px solid #F06E30;
         color: #F06E30; }
 
+.mktoFormRow:nth-child(23) .mktoFormCol:nth-child(1) {
+  margin: 0 !important;
+  padding: 0;
+  width: 25px; }
+  .mktoFormRow:nth-child(23) .mktoFormCol:nth-child(1) .mktoFieldWrap label {
+    display: none; }
+  .mktoFormRow:nth-child(23) .mktoFormCol:nth-child(1) .mktoFieldWrap .mktoCheckboxList {
+    padding: 0; }
+    .mktoFormRow:nth-child(23) .mktoFormCol:nth-child(1) .mktoFieldWrap .mktoCheckboxList input {
+      padding: 0;
+      margin: 0; }
+.mktoFormRow:nth-child(23) .mktoFormCol:nth-child(2) {
+  width: 97.5%; }
+  .mktoFormRow:nth-child(23) .mktoFormCol:nth-child(2) .mktoHtmlText {
+    width: 100% !important; }
+
 /* contact_thank_you css */
 .contact_thank_you .container-main {
   text-align: center;
@@ -399,6 +418,11 @@ body.design {
     font-size: 40px !important;
     font-weight: 700 !important; }
 .contact_thank_you .container-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0; }
+
+.about .container-footer {
   position: absolute;
   width: 100%;
   bottom: 0; }
@@ -412,7 +436,7 @@ body.design {
     padding-right: 20px; }
 
   .content-container-wrap .container-content .container-main {
-    padding: 30px 20px 20px; } }
+    padding: 10px 20px 20px; } }
 @media screen and (max-width: 900px) {
   .nav-wrap .container-nav .navbar-collapse ul li a {
     font-size: 14px;
